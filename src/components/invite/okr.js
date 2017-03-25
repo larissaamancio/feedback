@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
-import actions from 'api/actions';
+import { connect } from 'react-redux';
 
 class Okr extends Component {
 
 	render() {
 
-		const { children } = this.props;
+		const { profile } = this.props;
 		return (
-			<div> { children } </div>
+			<div> { profile } </div>
 		);
 	}
 }
 
-export default Okr;
+export default connect(({ profile }) => ({ profile }))(Okr);;
+

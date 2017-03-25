@@ -19,7 +19,7 @@ const FeedbackRouter = ({ history, validate }) => {
       <Route path="/change_password" component={ChangePassword} />
       <Route path="/" component={Base} onEnter={validate}>
         <IndexRedirect to="/profile" />
-        <Route path="/okr" component={Okr} />
+        <Route path="/invites/:id" component={Okr} />
         <Route path="/profile" component={Profile} />
         <Route path="/invites" component={Invites} />
         <Route path="/invites/:uid" component={Okrs} />
