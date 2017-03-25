@@ -14,11 +14,11 @@ import sagas from 'api/sagas';
 import FeedbackRouter from 'Router';
 
 const config = {
-  apiKey: "AIzaSyDGYMxpnYaAJYyquEUM6Y__yQjhPP_skx0",
-  authDomain: "feedback-140018.firebaseapp.com",
-  databaseURL: "https://feedback-140018.firebaseio.com",
-  storageBucket: "feedback-140018.appspot.com",
-  messagingSenderId: "71457068040"
+  apiKey: "AIzaSyArFnmDhDIbEL7Qx92OuO-mKlhvwKsxbzw",
+  authDomain: "feedback-f9ff3.firebaseapp.com",
+  databaseURL: "https://feedback-f9ff3.firebaseio.com",
+  storageBucket: "feedback-f9ff3.appspot.com",
+  messagingSenderId: "779037169630"
 };
 firebase.initializeApp(config);
 window.firebase = firebase;
