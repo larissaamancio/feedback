@@ -15,6 +15,7 @@ class Okrs extends React.Component {
   render() {
     const { profile, params: { uid } } = this.props;
     const invite = profile.getIn(['invites', uid]);
+    debugger;
     return (
       <div>
         <Header invite={invite} />
