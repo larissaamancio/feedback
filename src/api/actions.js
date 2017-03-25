@@ -28,6 +28,10 @@ export const crud = {
   findSuccess: `${NAMESPACE}-CRUD-FIND-SUCCESS`,
 }
 
+export const invite = {
+  okr: `${NAMESPACE}-OKR`,
+}
+
 
 export const authDispatchers = (dispatch) => ({
   login: () => ( dispatch({ type: user.login }) ),
@@ -38,6 +42,7 @@ export const authDispatchers = (dispatch) => ({
 
 export default {
   user,
+  invite,
 }
 
 // export default dispatch => (
